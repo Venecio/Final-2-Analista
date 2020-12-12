@@ -38,7 +38,7 @@
 
         <input type="submit" name="inscribir" value="Inscribir"> 
         <br><br>
-        <a href="../../index.html">Ir al inicio</a>
+        <a href="../../index.php">Ir al inicio</a>
 
     <body>
 <html>

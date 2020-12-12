@@ -23,7 +23,7 @@
         <h1>Inscripcion en materias</h1>
         <ul><li><a href="./vistas/inscripciones/alta_inscripcion.php" style="color:white;"><font face="Century Gothic">Inscribir un alumno a una materia</font></a></li></ul>
         <ul><li><a href="./vistas/inscripciones/lista_inscripciones.php" style="color:white;"><font face="Century Gothic">Modificar o eliminar inscripciones</font></a></li></ul>		
-        <h5><a href="./index.html">Ir al inicio</a></h5>
+        <h5><a href="./index.php">Ir al inicio</a></h5>
    
         
     </body>

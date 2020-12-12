@@ -29,7 +29,7 @@
         <br>
 
 
-        <h5><a href="../../index.html">Ir al inicio</a></h5>
+        <h5><a href="../../index.php">Ir al inicio</a></h5>
 
         
     <body>
