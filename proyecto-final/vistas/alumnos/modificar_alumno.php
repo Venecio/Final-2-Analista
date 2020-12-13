@@ -13,7 +13,7 @@
         $alumno = $alumnos->listar_alumno_por_id($_GET['id']);
     ?>
     <form method="POST" action="../../funcionabilidad/acciones_para_alumnos.php" > 
-        <h2><font face="Century Gothic">Ingrese los datos a guardar en base de datos</font></h2>
+        <h2>Ingrese los datos a guardar en base de datos</h2>
         <label>Id </label><br>
         <input type="text" id="id" name="id"  value="<?php echo $alumno['id'] ?>" readonly><br>
         <label>Apellido </label><br>

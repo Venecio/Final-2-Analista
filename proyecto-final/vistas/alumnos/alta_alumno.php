@@ -5,11 +5,11 @@
     <title>Insertar Datos</title>
     <link rel="stylesheet" href="./estilos.css"/>
 </head>
-<body style="background-color:#88B04B">
+<body>
     <br>
-    <img src="‪./original.jpg" alt="logo">
+    
     <form method="POST" action="../../funcionabilidad/acciones_para_alumnos.php"> 
-        <h2><font face="Century Gothic">Ingrese los datos a guardar en base de datos</font></h2>
+        <h2>Ingrese los datos a guardar en base de datos</h2>
         <label>Apellido </label><br>
         <input type="text" name="apellido" placeholder="Ingrese un apellido" ><br>
         <label>Nombre </label><br>

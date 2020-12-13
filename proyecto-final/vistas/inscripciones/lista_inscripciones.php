@@ -5,7 +5,7 @@
     <title>Insertar Datos</title>
     <link rel="stylesheet" href="./estilos.css"/>
 </head>
-<body style="background-color:#88B04B";>
+<body>
 
 
         <h2>Estos son los datos que hay actualmente</h2><br>

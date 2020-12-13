@@ -1,0 +1,36 @@
+*{
+    
+   background-color:#181818;
+   font-family: "Calibri";
+   text-align: center;
+}
+h1{
+   color:#BFC9CA;
+    font-size: 30px;
+    border: 1px solid red; 
+
+}
+label{
+    font-size: 18px;
+    color:#FFC300;
+    font-weight: bold;
+}
+input{
+    border: 1px solid black;
+    width:20%;
+     border-radius:20px;
+     padding:0.5em;
+     outline: none;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color:#BFC9CA;
+  color: black;
+  
+}
+input[type="submit"]{
+    border-color: red;
+    background-color:#BFC9CA ;
+    font-weight: bold;
+    
+}

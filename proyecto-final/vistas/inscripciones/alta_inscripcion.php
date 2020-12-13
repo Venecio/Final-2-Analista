@@ -5,7 +5,7 @@
     <title>Inscripcion de alumnos</title>
     <link rel="stylesheet" href="./estilos.css"/>
 </head>
-<body style="background-color:#88B04B";>
+<body>
     <br>
     <a><img src="imagenes/original.jpg"></a>
     <?php
@@ -17,10 +17,10 @@
         $alumnos = new alumnos();
         $alumno = $alumnos->listar_alumnos_acotada();
     ?>
-    <img src="marito.jpg" alt="Trulli" width="500" height="333">
+    
     
     <form method="POST" action="../../funcionabilidad/gestion_inscripciones.php" >
-        <h2><font face="Century Gothic">Gestion de inscripciones de alumnos en materias</font></h2>
+        <h2>Gestion de inscripciones de alumnos en materias</font></h2>
         <label> Seleccione una materia<label>
         <select id="id_materia" name="id_materia">  
         <?php  foreach ($materia as $key) { ?>
