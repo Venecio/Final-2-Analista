@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Inscripcion de alumnos</title>
-    <link rel="stylesheet" href="./estilos.css"/>
+    <link rel="stylesheet" href="../../estilos/estilosvistas.css"/>
 </head>
 <body>
     <br>
-    <a><img src="imagenes/original.jpg"></a>
     <?php
         require_once  "../../funcionabilidad/acciones_para_materias.php";
         $materias = new materias();
@@ -20,8 +19,8 @@
     
     
     <form method="POST" action="../../funcionabilidad/gestion_inscripciones.php" >
-        <h2>Gestion de inscripciones de alumnos en materias</font></h2>
-        <label> Seleccione una materia<label>
+        <h2 class="Titulo">Gestion de inscripciones de alumnos en materias</font></h2>
+        <label> Seleccione una materia <label>
         <select id="id_materia" name="id_materia">  
         <?php  foreach ($materia as $key) { ?>
             <option value =<?php echo $key['id'] ?> > <?php echo $key['nombre'] ?></option>
@@ -29,7 +28,7 @@
         </select>
 
 
-        <label> Seleccione un alumno<label>
+        <label> Seleccione un alumno <label>
          <select id="id_alumno" name="id_alumno">  
         <?php  foreach ($alumno as $key) { ?>
             <option value =<?php echo $key['id'] ?> > <?php echo $key['apellidoynombre'] ?></option>
@@ -38,7 +37,7 @@
 
         <input type="submit" name="inscribir" value="Inscribir"> 
         <br><br>
-        <a href="../../index.php">Ir al inicio</a>
+        <a class="indexa" href="../../index.php">Ir al inicio</a>
 
     <body>
 <html>

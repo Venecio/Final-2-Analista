@@ -8,7 +8,7 @@
     <body>
         <br>
         <form method="POST" action="../../funcionabilidad/acciones_para_materias.php">
-            <h1>Gestion de alta de materias</h1>
+            <h2 class="Titulo">Gestion de alta de materias</h2>
             <label>Nombre de la materia </label><br>
             <input type="text" name="nombre"><br>
             <label>Año en cual se dicta</label><br>
@@ -20,6 +20,6 @@
             <br>
 
             <br>
-            <h5><a href="../../index.php">Ir al inicio</a></h5>
+            <a class="indexa" href="../../index.php">Ir al inicio</a>
             <body>
             <html>

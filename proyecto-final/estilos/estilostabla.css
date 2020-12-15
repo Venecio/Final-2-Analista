@@ -1,0 +1,30 @@
+*{
+   background-color: #181818; 
+   font-family: "Calibri";
+}
+table{
+     width: 80%;
+     margin: auto;
+}
+.columnas {
+    color: black;
+  text-align: center;
+    color:#FFC300;
+    font-weight: bold;
+}
+td{
+    color:red;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.mod{
+    color:#BFC9CA;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.indexa{
+    color:white;
+    border:2px solid red;
+}

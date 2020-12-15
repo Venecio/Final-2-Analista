@@ -2,21 +2,22 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Insertar Datos</title>
-    <link rel="stylesheet" href="./estilos.css"/>
+    <title>Modificar datos</title>
+    <link rel="stylesheet" href="../../estilos/estilostabla.css"/>
+    <link rel="stylesheet" href="../../estilos/estilosvistas.css"/>
 </head>
 <body>
 
 
-        <h2>Estos son los datos que hay actualmente</h2><br>
+        <h2 class="Titulo">Estos son los datos que hay actualmente</h2><br>
         ­<table>
             <tr>
-                <td>ID</td>
-                <td>Apellido</td>
-                <td>Nombre</td>
-                <td>Edad</td>
-                <td>Correo Electrónico</td>
-                <td>Modificar</td>
+                <td class="columnas">ID</td>
+                <td class="columnas">Apellido</td>
+                <td class="columnas">Nombre</td>
+                <td class="columnas">Edad</td>
+                <td class="columnas">Correo Electrónico</td>
+                
             </tr>  
             <?php
 
@@ -33,14 +34,14 @@
                     <td><?php echo $key['edad'] ?></td>
                     <td><?php echo $key['email'] ?></td>
 
-                    <td><?php echo'<a href="' . htmlspecialchars("modificar_alumno.php?id=" .urlencode($key['id'])) . '" style="color:white;"><font face="Century Gothic">Modificar</font></a>' ?></td>
+                    <td><?php echo'<a href="' . htmlspecialchars("modificar_alumno.php?id=" .urlencode($key['id'])) . '" >🡠 Modificar</a>' ?></td>
                 </tr>      
             <?php
             }
         ?>
     </table>
-
-            <h5><a href="../../index.php">Ir al inicio</a></h5>
+        <br>
+        <a class="indexa" href="../../index.php">Ir al inicio</a>
 
     <body>
         <html>

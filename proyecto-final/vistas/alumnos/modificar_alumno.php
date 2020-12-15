@@ -2,10 +2,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Insertar Datos</title>
-    <link rel="stylesheet" href="./estilos.css"/>
+    <title>Modificar datos</title>
+    
+    <link rel="stylesheet" href="../../estilos/estilosvistas.css"/>
 </head>
-<body style="background-color:#88B04B";>
+<body>
     <br>
     <?php
         require_once "../../funcionabilidad/acciones_para_alumnos.php";
@@ -13,7 +14,7 @@
         $alumno = $alumnos->listar_alumno_por_id($_GET['id']);
     ?>
     <form method="POST" action="../../funcionabilidad/acciones_para_alumnos.php" > 
-        <h2>Ingrese los datos a guardar en base de datos</h2>
+        <h2 class="Titulo">Ingrese los datos a modificar en base de datos</h2>
         <label>Id </label><br>
         <input type="text" id="id" name="id"  value="<?php echo $alumno['id'] ?>" readonly><br>
         <label>Apellido </label><br>
@@ -25,14 +26,14 @@
         <label>Correo </label><br>
         <input type="email" name="email" value=<?php echo $alumno['email']?>><br>
         <br>
-        <input type="submit" name="modificar" value="modificar"> 
+        <input type="submit" name="modificar" value="Modificar"> 
         <br>
 
         <br>
 
 
 
-                <h5><a href="../../index.php">Ir al inicio</a></h5>
+                <a class="indexa" href="../../index.php">Ir al inicio</a>
 
     <body>
         <html>

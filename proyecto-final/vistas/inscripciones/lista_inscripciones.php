@@ -38,7 +38,7 @@
         ?>
     </table>
 
-            <h5><a href="../../index.php">Ir al inicio</a></h5>
+            <a class="indexa" href="../../index.php">Ir al inicio</a>
 
     <body>
         <html>

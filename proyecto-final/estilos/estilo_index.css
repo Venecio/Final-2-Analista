@@ -17,8 +17,7 @@ a{
   color:#FFC300;
   font-weight: bold;
 }
-
-.indexa{
+li{
+    list-style-image: url('../recursos/67902 (1).png');
     color:white;
-    
 }

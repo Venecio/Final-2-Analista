@@ -3,8 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/xampp/htdocs/Proyecto_final/proyecto-final/vistas/materias/lista_materias.php</file>
             <file>file:/C:/xampp/htdocs/Proyecto_final/proyecto-final/estilos/estilosvistas.css</file>
-            <file>file:/C:/xampp/htdocs/Proyecto_final/proyecto-final/index.php</file>
+            <file>file:/C:/xampp/htdocs/Proyecto_final/proyecto-final/vistas/alumnos/lista_alumnos.php</file>
+            <file>file:/C:/xampp/htdocs/Proyecto_final/proyecto-final/vistas/inscripciones/alta_inscripcion.php</file>
+            <file>file:/C:/xampp/htdocs/Proyecto_final/proyecto-final/estilos/estilostabla.css</file>
             <file>file:/C:/xampp/htdocs/Proyecto_final/proyecto-final/vistas/materias/alta_materia.php</file>
         </group>
     </open-files>
