@@ -1,7 +1,7 @@
 <?php
 class Conectar{
     public static function conexion(){    
-        $conexion=new mysqli("localhost", "Venecio", "2277", "basephp");
+        $conexion=new mysqli("localhost", "", "", "basephp"); //saque user y password
         $conexion->query("SET NAMES 'utf8'");
         return $conexion;
         
