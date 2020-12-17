@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Insertar Datos</title>
     <link rel="stylesheet" href="../../estilos/estilosvistas.css"/>
+    <link rel="shortcut icon" href="../../recursos/iconoUniversidad.jpg">
 </head>
 <body>
     <br>

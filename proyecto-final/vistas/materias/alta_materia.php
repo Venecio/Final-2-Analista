@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Insertar Datos</title>
         <link rel="stylesheet" href="../../estilos/estilosvistas.css"/>
+        <link rel="shortcut icon" href="../../recursos/iconoUniversidad.jpg">
     </head>
     <body>
         <br>
@@ -12,7 +13,7 @@
             <label>Nombre de la materia </label><br>
             <input type="text" name="nombre"><br>
             <label>Año en cual se dicta</label><br>
-            <input type="number" min="1" name="curso"><br>
+            <input type="number" min="1" max=3 name="curso"><br>
             <label>Carrera a la que pertenece</label><br>
             <input type="text" name="carrera"><br>
             <br>

@@ -47,3 +47,10 @@ input[type="submit"]{
     font-size: 15px;
     font-weight: bold;
 }
+select,
+option{
+  color: red;
+}
+value{
+    color: red;
+}

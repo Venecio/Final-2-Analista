@@ -3,6 +3,7 @@
         <meta charset="UTF-8">
         <meta>
         <title>Trabajo Final</title>
+        <link rel="shortcut icon" href="recursos/iconoUniversidad.jpg">
         <link rel="stylesheet" href="estilos/estilo_index.css"/>
     </head>
 
@@ -22,7 +23,7 @@
 
     <h1>Inscripción en materias</h1>
     <li><a href="./vistas/inscripciones/alta_inscripcion.php">Inscribir un alumno a una materia</a></li>
-    <li><a href="./vistas/inscripciones/lista_inscripciones.php">Modificar o eliminar inscripciones</a></li>		
+    <li><a href="./vistas/inscripciones/lista_inscripciones.php">Ver y eliminar inscripciones</a></li>		
     <br>
     <br>
     <a href="https://www.unvime.edu.ar/"target="_blank">

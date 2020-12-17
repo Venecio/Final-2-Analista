@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Modificar datos</title>
+    <link rel="shortcut icon" href="../../recursos/iconoUniversidad.jpg">
     <link rel="stylesheet" href="../../estilos/estilostabla.css"/>
     <link rel="stylesheet" href="../../estilos/estilosvistas.css"/>
 </head>
@@ -34,7 +35,7 @@
                     <td><?php echo $key['edad'] ?></td>
                     <td><?php echo $key['email'] ?></td>
 
-                    <td><?php echo'<a href="' . htmlspecialchars("modificar_alumno.php?id=" .urlencode($key['id'])) . '" >🡠 Modificar</a>' ?></td>
+                    <td><?php echo'<a class="mod" href="' . htmlspecialchars("modificar_alumno.php?id=" .urlencode($key['id'])) . '" >Modificar</a>' ?></td>
                 </tr>      
             <?php
             }

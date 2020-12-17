@@ -43,7 +43,7 @@ class inscripciones{
                                                 INNER JOIN alumno
                                                 ON alumno.id = inscripcion.id_alumno
                                                 INNER JOIN materia
-                                                ON materia.id = inscripcion.id_materia;";
+                                                ON materia.id = inscripcion.id_materia ORDER BY inscripcion.id;";
 
         $consulta=$this->db->query($consulta_listar_inscripciones);
         while($filas=$consulta->fetch_assoc()){

@@ -2,7 +2,8 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Insertar Datos</title>
+    <title>Mostrando Datos</title>
+    <link rel="shortcut icon" href="../../recursos/iconoUniversidad.jpg">
     <link rel="stylesheet" href="./../../estilos/estilostabla.css"/>
     <link rel="stylesheet" href="../../estilos/estilosvistas.css"/>
 </head>

@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Inscripcion de alumnos</title>
+    <link rel="shortcut icon" href="../../recursos/iconoUniversidad.jpg">
     <link rel="stylesheet" href="../../estilos/estilosvistas.css"/>
+    <link rel="stylesheet" href="../../estilos/estiloInscripcion.css"/>
 </head>
 <body>
     <br>
